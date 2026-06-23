@@ -1,99 +1,99 @@
-# Notes Management App
+# notes management app
 
-A Flask-based web application for managing personal notes with user authentication and secure data storage.
-
----
-
-## 🚀 Features
-
-* User registration and login system
-* Secure authentication using Flask-Login
-* Create, view, and delete personal notes
-* User-specific note storage (each user sees only their own notes)
-* Session-based login management
+a flask-based web application for managing personal notes with user authentication and secure data storage.
 
 ---
 
-## 🛠️ Tech Stack
+## features
 
-* Flask
-* Flask-Login
-* Python
-* SQLite
-* SQLAlchemy
-* HTML (Jinja2 templates)
-* CSS
-* JavaScript
+* user registration and login system
+* secure authentication using flask-login
+* create,view and delete personal notes
+* user-specific note storage (each user sees only their own notes)
+* session-based login management
 
 ---
 
-## 📁 Project Structure
+## tech stack
 
-* `main.py` → Entry point of the application
-* `templates/` → HTML files (login,signup,base,etc.)
-* `static/` → CSS/JS files
-* `instance/` → SQLite database storage
+* flask
+* flask-login
+* python
+* sqlite
+* sqlalchemy
+* html (jinja2 templates)
+* css
+* javascript
 
 ---
 
-## ⚙️ How to Run Locally
+## project structure
 
-### 1. Clone the repository
+* `main.py` → entry point of the application
+* `templates/` → html files (login,signup,base,etc.)
+* `static/` → css/js files
+* `instance/` → sqlite database storage
 
-```bash id="n1q8kd"
+---
+
+## how to run locally
+
+### 1. clone the repository
+
+```bash
 git clone https://github.com/your-username/notes-management-app.git
 cd notes-management-app
 ```
 
 ---
 
-### 2. Create virtual environment
+### 2. create virtual environment
 
-```bash id="k2m8qe"
+```bash
 python -m venv venv
-venv\Scripts\activate   # Windows
-# source venv/bin/activate  # Mac/Linux
+venv\scripts\activate   # windows
+# source venv/bin/activate  # mac/linux
 ```
 
 ---
 
-### 3. Install dependencies
+### 3. install dependencies
 
-```bash id="p9x3ld"
+```bash
 pip install flask flask-login flask-sqlalchemy
 ```
 
 ---
 
-### 4. Run the application
+### 4. run the application
 
-```bash id="s7v2mq"
+```bash
 py main.py
 ```
 
 ---
 
-### 5. Open in browser
+### 5. open in browser
 
-```
+```text
 http://localhost:5000
 ```
 
 ---
 
-## 📌 Notes
+## notes
 
-* First, create an account to access notes
-* Each user has isolated personal notes
-* Database file is created automatically inside `instance/` folder
-* Keep `main.py` in the root directory while running
+* first,create an account to access notes
+* each user has isolated personal notes
+* database file is created automatically inside `instance/` folder
+* keep `main.py` in the root directory while running
 
 ---
 
-## 💡 Learning Outcomes
+## learning outcomes
 
-* User authentication with Flask-Login
-* Session management
-* Database integration with SQLAlchemy
-* Server-side rendering using Flask templates
-* Full-stack web development fundamentals
+* user authentication with flask-login
+* session management
+* database integration with sqlalchemy
+* server-side rendering using flask templates
+* full-stack web development fundamentals
