@@ -72,7 +72,7 @@ pip install flask flask-login flask-sqlalchemy
 ### 4️⃣ run the application
 
 ```bash
-python main.py
+py main.py
 ```
 
 ### 5️⃣ open in your browser
